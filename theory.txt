@@ -1,0 +1,50 @@
+
+
+Index Array (1D)====for loop
+Multi Dimensional Array (2D)===for loop (nested lopp)
+Associative Array (Object Array)===for loop
+
+1. for loop
+2. foreach loop
+3. while
+4. do while 
+
+
+===========Associative Array======
+
+let human = 
+{
+    name: 'Bablu', age: 20, balance: 300
+};
+
+console.log(human.name);
+console.log(human.age);
+console.log(human.balance);
+
+
+Multi Dimensional Array (2D)===for loop (nested loop)
+
+for(let i=0; i<=2; i++){ //Row 0 1 2
+    //i=0
+    //i=1
+    //i=2
+    for(let j=0; j<=3; j++){ //Column 0 1 2 3
+       //i=0  //j=0
+        //i=0 //j=1
+       //i=0  //j=2
+        //i=0 //j=3
+
+        //i=1 //j=0
+        //i=1 //j=1
+        //i=1 //j=2
+        //i=1 //j=3
+
+        //i=2 //j=0
+        //i=2 //j=1
+        //i=2 //j=2
+        //i=2 //j=3
+    }
+ }
+
+
+ hdfhds.cpp
